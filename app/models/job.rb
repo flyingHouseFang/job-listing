@@ -6,5 +6,15 @@ class Job < ActiveRecord::Base
   validates :wage_lower_bound, numericality: { greater_than: 0 }
   scope :published, -> { where(is_hidden: false)}
   scope :resent, -> { order('created_at DESC')}
+  def publish!
+    self.is_hidden = false
+    self.save
+  end
+
+  def hide!
+    self.is_hidden = true
+    self.save
+  end
+
   has_many :resumes
 end
