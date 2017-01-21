@@ -31,30 +31,30 @@
 }
 
 .jumbotron {
-  background-image: url('http://y.photo.qq.com/img?s=n0m7YMg0L&l=y.jpg');
+  background-image: url('http://careerpotential.com/wp-content/uploads/2013/08/pix-career-arrow-300x225.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .title {
   font-family: "Helvetica Neue", "Mecrosoft Yahei", 微软雅黑;
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 80px;
+  text-align: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .slogan {
   margin-top: 10px;
   margin-bottom: 50px;
-  text-align: center;
-  color: white;
+  text-align: right;
+  color: black;
   top: 12px;
 }
 
 .lead {
   margin-bottom: 60px;
-  text-align: center;
+  text-align: right;
   color: white;
 }
 
@@ -68,4 +68,9 @@
   border: 0 none;
   box-shadow: none;
   margin-top: 60px;
+}
+
+.img-thumbnail {
+  width:128px;
+  height:128px;
 }
